@@ -105,6 +105,13 @@ h1 {
     color: black;
 }
 
+.drama-container #how-to-download {
+    background-color: aliceblue;
+    text-decoration: solid blue;
+    font-size: medium;
+    color: blue;
+}
+
 
 footer {
     position: absolute;
