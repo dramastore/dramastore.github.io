@@ -6,7 +6,7 @@ function loadMore() {
     mainContainerList2.style.display = 'block'
 }
 
-function searching() {
+/* function searching() {
     var input = document.getElementById('search');
     var filter = input.value.toLowerCase();
     var dramas = document.querySelectorAll('.header');
@@ -28,4 +28,4 @@ function searching() {
             drama.parentElement.style.display = 'none'
         }
     })
-}
+} */
