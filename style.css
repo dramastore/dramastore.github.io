@@ -3,7 +3,6 @@
 }
 
 body {
-    width: 100%;
     position: relative;
     background-color: aliceblue;
     background-repeat: no-repeat;
@@ -14,9 +13,9 @@ body {
 }
 
 header {
-    position: absolute;
+    position: fixed;
     background-color: green;
-    width: 100%;
+    width: inherit;
     height: fit-content;
     color: white;
     text-align: center;
@@ -26,6 +25,13 @@ header {
 
 header a {
     color: yellow;
+}
+
+header .menu {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4px;
+    padding-right: 6px;
 }
 
 .maelezo1 {
@@ -64,7 +70,7 @@ h1 {
 }
 
 .main-container-ongoing, .main-container-list2 {
-    background-color: yellow;
+    background-color: yellowgreen;
     width: 100%;
     border-radius: 25px;
     margin-bottom: 100px;
@@ -126,8 +132,8 @@ footer {
     margin-bottom: 0;
 }
 
-footer a {
-    color: yellow;
+footer button {
+    color: blue;
 }
 
 #ujumbe {
@@ -143,7 +149,7 @@ footer a {
 }
 
 header button, footer button {
-    color: yellow;
+    color: gold;
     font-size: medium;
     font-weight: bold;
 }
