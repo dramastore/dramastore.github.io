@@ -15,7 +15,7 @@ body {
 header {
     position: fixed;
     background-color: green;
-    width: inherit;
+    width: 100%;
     height: fit-content;
     color: white;
     text-align: center;
@@ -163,7 +163,10 @@ header button, footer button {
         background-color: aliceblue;
         box-shadow: gray -20px 0 10px, gray 20px 0 10px;
 }
- .drama-container {
+    .header {
+        width: 100%;
+    }
+    .drama-container {
      width: 75%;
  }
  #a-ads1 {
