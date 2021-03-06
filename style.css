@@ -164,7 +164,7 @@ header button, footer button {
         box-shadow: gray -20px 0 10px, gray 20px 0 10px;
 }
     .header {
-        width: 100%;
+        width: inherit;
     }
     .drama-container {
      width: 75%;
@@ -186,6 +186,9 @@ header button, footer button {
     }
     #a-ads1 {
         width: 75%;
+    }
+    header {
+        width: inherit;
     }
 }
 
