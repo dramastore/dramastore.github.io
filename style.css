@@ -163,7 +163,7 @@ header button, footer button {
         background-color: aliceblue;
         box-shadow: gray -20px 0 10px, gray 20px 0 10px;
 }
-    .header {
+    header {
         width: inherit;
     }
     .drama-container {
